@@ -1,0 +1,88 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.my-logo {
+   display: block;
+   /*width: 50%;*/
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   height: 250px;
+   }
+h1, p {
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-size: 4.375em; /*70px*/
+	margin-bottom: 10px;
+}
+p {
+	font-size: 2.1875em; /*35px*/
+	margin-top: 0;
+}
+.yt-logo {
+   display: block;
+   /*width: 50%;*/
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   height: 100px;
+   }
+
+footer p {
+	font-size: 1.5em; /*24px*/
+}
+
+footer {
+	margin-top: auto;
+}
+	
+/*------------------------
+  Media Queries
+  ------------------------*/
+@media screen and (max-width: 931px) and (min-width: 481px) {
+		h1 {
+			font-size: 2.5em; 
+			margin-bottom: 30px;
+		 }
+		p {
+			font-size: 1.2em;
+			margin-top: 20px;
+		}
+		footer p {
+			font-size: 0.8em;
+		}
+		.my-logo {
+			height: 30vh;
+		}
+		.yt-logo {
+			height: 8vh;
+		}
+	   }
+  
+@media only screen and (max-width: 480px) {
+		h1 {
+			font-size: 2em; 
+			margin-bottom: 10px;
+		 }
+		p {
+			font-size: 1em;
+		}
+		footer p {
+			font-size: 0.5em;
+		}	
+		.my-logo {
+			height: 25vh;
+		}	
+		.yt-logo {
+			height: 4vh;
+			margin-top: 5px;
+		}
+	   }
